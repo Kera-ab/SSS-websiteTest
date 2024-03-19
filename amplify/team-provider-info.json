@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-swiftsyncwebsite-dev-54539-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891377252705:role/amplify-swiftsyncwebsite-dev-54539-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891377252705:role/amplify-swiftsyncwebsite-dev-54539-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-swiftsyncwebsite-dev-54539-deployment",
+      "UnauthRoleName": "amplify-swiftsyncwebsite-dev-54539-unauthRole",
+      "StackName": "amplify-swiftsyncwebsite-dev-54539",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:891377252705:stack/amplify-swiftsyncwebsite-dev-54539/5ffb4960-de5e-11ee-9ebb-0ad1872b641d",
+      "AmplifyAppId": "dfmbqmzq5qbld"
+    }
+  }
+}

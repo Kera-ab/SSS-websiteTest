@@ -1,0 +1,36 @@
+/* Add your styling for the AboutUs component here */
+
+
+
+/* Style for the container */
+.aboutus-container {
+    
+   
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Style for each button wrapper */
+  .button-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Style for the button */
+  .button-aboutus {
+    width: 300px;
+    height: 300px;
+    background: #F6EBE4;
+    border: 1px solid #F2D2D4;
+    color: #303030;
+    transition: background 0.3s, border 0.3s;
+    border-radius: 0%;
+  }
+  
+  /* Hover effect */
+  .button-aboutus:hover {
+    background: #F6DBD4;
+    border: 1px solid #F2D2D4;
+  }
+  

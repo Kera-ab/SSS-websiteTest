@@ -1,0 +1,75 @@
+/* Contact.css */
+
+.Contact-Page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:30px;
+    color: #2F204C;
+    border: 1px solid #2F204c;
+    background-color: #E8E6F6; /* Light Purple Background Color */
+  }
+
+  .Contact-body{
+    display: flex;
+
+  }
+  
+  .Form {
+    padding: 70px; /* Add padding for spacing */
+    padding-left:500px ;
+    text-align: left; /* Center align text */
+    width:30%
+  }
+  
+  /* Style for the form elements */
+  label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2F204C;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  input,
+  textarea {
+    background-color: #E8E6F6;
+    border-color:  #000; /* Light Purple Background Color */
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-width: 2px;
+    border-style: inset;
+    border-image: initial;
+  }
+  
+  .name {
+    width: 42%;
+    display: inline-block;
+  }
+
+  .title{
+    padding-left: 40px;
+  }
+
+  .Contact-Info{
+    padding: 5%;
+    width:20%;
+  }
+
+  a{
+    padding: 15px;
+  }
+
+  .tton{
+    background-color: #2F204C !important;
+    color: #E8E6F6 !important;
+    border-radius: 0%;
+    padding: 15px;
+  }
+  .tton:hover{
+    background-color: #370757 !important;
+    color: #E8E6F6 !important;
+  }
+
+  .button-thankyou{
+    display: inline-flex !important;
+  }
