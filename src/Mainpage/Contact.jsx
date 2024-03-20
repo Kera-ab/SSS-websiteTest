@@ -42,7 +42,7 @@ function Contact() {
 
 
     try {
-      const response = await fetch('http://localhost:5001/api/submit', {
+      const response = await fetch('https://main.d16fdtgez6soak.amplifyapp.com/backend/api/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
