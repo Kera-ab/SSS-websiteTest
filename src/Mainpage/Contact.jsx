@@ -40,6 +40,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+
     try {
       const response = await fetch('http://localhost:5001/api/submit', {
         method: 'POST',
@@ -49,12 +50,8 @@ function Contact() {
         body: JSON.stringify(formData),
       });
 
-      if (isVerified) {
-        // Perform your action, like form submission
-        console.log('Form submitted successfully!');
-      } else {
-        console.error('reCAPTCHA verification failed.');
-      }
+      
+      
       
       if (response.ok) {
         console.log('Form submitted successfully!');
@@ -66,6 +63,9 @@ function Contact() {
       console.error('Error during form submission:', error);
     }
 
+
+ 
+
     setFormData({
       firstName: '',
       lastName: '',
@@ -73,6 +73,7 @@ function Contact() {
       phoneNumber: '',
       message: '',
     });
+
   };
 
   return (
@@ -163,14 +164,22 @@ function Contact() {
 
           <div>
             <ReCAPTCHA
-              sitekey="6Ld4vZspAAAAAPky8Ps2mMaE3l2FnGrme8DITUkZ"
+              sitekey="6LfSsZ4pAAAAAOIdl921DBP75_F4cbDaakEq9Aon"
               onChange={handleRecaptchaChange}
             />
           </div>
 
           <br/>
 
-          <button className='tton' type="submit">Send an E-mail to us</button>
+
+          {!isVerified ? (
+              <></>
+            ) : (
+              <button className='tton' type="submit">Send an E-mail to us</button>
+            )}
+
+
+          
           <div className='button-thankyou'>
             {!isSubmitted ? (
               <></>
