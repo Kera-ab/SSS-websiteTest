@@ -164,7 +164,7 @@ function Contact() {
 
           <div>
             <ReCAPTCHA
-              sitekey="6LfSsZ4pAAAAAOIdl921DBP75_F4cbDaakEq9Aon"
+              sitekey="6LfRtJ4pAAAAAGzLqoIhCyWQK9VrilO6tQp4XpkC"
               onChange={handleRecaptchaChange}
             />
           </div>
