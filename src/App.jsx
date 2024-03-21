@@ -11,6 +11,16 @@ import Aboutuspage from './Aboutuspage/AboutusPage';
 
 function App() {
 
+  useEffect(() => {
+    document.title = "Swift-Sync";
+  }, []);
+  
+    useEffect(() => {
+      const favicon = document.querySelector('link[rel="icon"]');
+      favicon.href = './assets/Swiftsynclogo.png';
+    }, []);
+  
+
   return (
     <>
       <Header/>
