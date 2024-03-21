@@ -5,6 +5,8 @@ import twitterIcon from '../assets/twitter-icon.svg';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import instagramIcon from '../assets/instagram-icon.svg';
 
+import amplify, {API} from 'amplify';
+
 
 import ReCAPTCHA from 'react-google-recaptcha';
 
@@ -42,7 +44,7 @@ function Contact() {
 
 
     try {
-      const response = await fetch('https://main.d16fdtgez6soak.amplifyapp.com/backend/api/submit', {
+      const response = await fetch('https://jbvrjjkxd2.execute-api.us-east-1.amazonaws.com//send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -164,7 +166,7 @@ function Contact() {
 
           <div>
             <ReCAPTCHA
-              sitekey="6LfRtJ4pAAAAAGzLqoIhCyWQK9VrilO6tQp4XpkC"
+              sitekey="6LeMXqApAAAAAHf0KjbsKTXhG2wERDLqd0Iik-DU"
               onChange={handleRecaptchaChange}
             />
           </div>
