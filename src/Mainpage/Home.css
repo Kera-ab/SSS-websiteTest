@@ -4,6 +4,7 @@
     display: flex;
     border: 1px solid #2F204c;
     margin-left: -2px;
+    width: 100%;
   }
   
   .Text-Area {

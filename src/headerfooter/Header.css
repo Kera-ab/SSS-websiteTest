@@ -44,7 +44,7 @@ nav li {
 button {
   font-size: 20px; /* Adjust the size as needed */
   border: 2px solid #f2f2f2; /* Add the 'solid' style for the border */
-  padding: 40px 20px; /* Adjust the padding as needed */
+  padding: 20px 20px; /* Adjust the padding as needed */
   background-color: #f2f2f2;
   color: #616161;
   cursor: pointer;
@@ -57,7 +57,7 @@ button:hover {
 }
 
 .logo{
-  padding-left: 50px;
+  padding-left: 5%;
   cursor: 'pointer';
   height: 100px;
 }
