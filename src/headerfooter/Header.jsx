@@ -8,21 +8,12 @@ import { FaBars , FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 
 function Header() {
-<<<<<<< Updated upstream
-  const [isAboutHovered, setIsAboutHovered] = useState(false);
 
-  const handleAboutHoverEnter = () => {
-    setIsAboutHovered(true);
-  };
-
-  const handleAboutHoverLeave = () => {
-    setIsAboutHovered(false);
-=======
   const navRef = useRef();
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
->>>>>>> Stashed changes
+
   };
 
   const scrollToTop = () => {
@@ -43,28 +34,13 @@ function Header() {
                 Home
               </button>
             </Link>
-<<<<<<< Updated upstream
-            </li>
-            <li
-              onMouseEnter={handleAboutHoverEnter}
-              onMouseLeave={handleAboutHoverLeave}
-            >
-              <button>About us</button>
-            </li>
-            <li>
-              <button>
-                <ScrollLink to="contact" smooth={true} duration={500}>
-                  Contact
-                </ScrollLink>
-              </button>
-            </li>
-          </ul>
-=======
+
           </div>
 
           <div className="navitems">
             <Link to="/aboutus">
               <button>About us</button>
+
             </Link>
           </div>
 
@@ -80,7 +56,6 @@ function Header() {
             <FaTimes />
           </button>
 
->>>>>>> Stashed changes
         </nav>
 
         <button
@@ -90,15 +65,6 @@ function Header() {
         </button>
         
       </header>
-      {isAboutHovered && (
-        <div
-          className="dropdown"
-          onMouseEnter={handleAboutHoverEnter}
-          onMouseLeave={handleAboutHoverLeave}
-        >
-          <AboutUs />
-        </div>
-      )}
     </div>
   );
 }

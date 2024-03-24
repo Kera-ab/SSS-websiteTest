@@ -7,7 +7,6 @@ import instagramIcon from '../assets/instagram-icon.svg';
 
 
 
-
 import ReCAPTCHA from 'react-google-recaptcha';
 
 function Contact() {
