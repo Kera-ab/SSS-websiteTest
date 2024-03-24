@@ -10,9 +10,7 @@
   .Text-Area {
     color: #2F204C;
     background-color: #D8E3F9; /* Light Purple Background Color */
-    padding: 5%; /* Add padding for spacing */
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 10%; /* Add padding for spacing */
     text-align: center; /* Center align text */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
