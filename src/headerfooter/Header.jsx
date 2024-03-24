@@ -6,15 +6,6 @@ import './Header.css';
 import AboutUs from './Aboutus';
 
 function Header() {
-  const [isAboutHovered, setIsAboutHovered] = useState(false);
-
-  const handleAboutHoverEnter = () => {
-    setIsAboutHovered(true);
-  };
-
-  const handleAboutHoverLeave = () => {
-    setIsAboutHovered(false);
-  };
 
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -35,12 +26,11 @@ function Header() {
               </button>
             </Link>
             </li>
-            <li
-              onMouseEnter={handleAboutHoverEnter}
-              onMouseLeave={handleAboutHoverLeave}
-            >
+            <Link to="/aboutus">
+            <li>
               <button>About us</button>
             </li>
+            </Link>
             <li>
               <button>
                 <ScrollLink to="contact" smooth={true} duration={500}>
@@ -51,15 +41,6 @@ function Header() {
           </ul>
         </nav>
       </header>
-      {isAboutHovered && (
-        <div
-          className="dropdown"
-          onMouseEnter={handleAboutHoverEnter}
-          onMouseLeave={handleAboutHoverLeave}
-        >
-          <AboutUs />
-        </div>
-      )}
     </div>
   );
 }
