@@ -5,8 +5,6 @@ import twitterIcon from '../assets/twitter-icon.svg';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import instagramIcon from '../assets/instagram-icon.svg';
 
-import amplify, {API} from 'amplify';
-
 
 import ReCAPTCHA from 'react-google-recaptcha';
 

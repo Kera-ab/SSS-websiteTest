@@ -4,8 +4,15 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import logo from '../assets/Swiftsynclogo.png';
 import './Header.css';
 import AboutUs from './Aboutus';
+import { FaBars , FaTimes } from "react-icons/fa";
+import { useRef } from "react";
 
 function Header() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
 
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -17,29 +24,42 @@ function Header() {
         <h3>
           <img className='logo' src={logo} alt="Logo" onClick={scrollToTop} />
         </h3>
-        <nav>
-          <ul>
-            <li>
+        <nav ref={navRef}>
+
+          <div className="navitems">
             <Link to="/">
               <button onClick={scrollToTop}>
-                  Home
+                Home
               </button>
             </Link>
-            </li>
+          </div>
+
+          <div className="navitems">
             <Link to="/aboutus">
-            <li>
               <button>About us</button>
-            </li>
             </Link>
-            <li>
-              <button>
-                <ScrollLink to="contact" smooth={true} duration={500}>
-                  Contact
-                </ScrollLink>
-              </button>
-            </li>
-          </ul>
+          </div>
+
+          <div className="navitems">
+            <ScrollLink to="contact" smooth={true} duration={500}>
+              <button>Contact</button>
+            </ScrollLink>
+          </div>
+
+          <button
+            className="nav-btn nav-close-btn"
+            onClick={showNavbar}>
+            <FaTimes />
+          </button>
+
         </nav>
+
+        <button
+          className="nav-btn"
+          onClick={showNavbar}>
+          <FaBars />
+        </button>
+        
       </header>
     </div>
   );
