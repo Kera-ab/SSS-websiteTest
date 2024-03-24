@@ -20,15 +20,15 @@
 
 .Form {
   padding: 20px;
-  padding-left: 700px;
+  padding-left: 650px;
   width: 30%; /* Default width for the form */
   margin-left: 20%; /* Default margin to center the form horizontally */
 
   /* Adjustments for mobile view */
   @media only screen and (max-width: 768px) {
-    padding: 10px; /* Reduced padding for smaller screens */
+    padding: 5px; /* Reduced padding for smaller screens */
     width: 80%; /* Adjusted width for smaller screens */
-    margin-left: 10%; /* Adjusted margin for smaller screens */
+    margin-left: 3%; /* Adjusted margin for smaller screens */
   }
 }
 
@@ -58,6 +58,8 @@ textarea {
   width: 45%;
   display: inline-block;
 }
+
+
 
 .Social-Media-Icons a {
   margin-right: 10px; /* Adjust margin for social media icons */
