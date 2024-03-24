@@ -10,13 +10,13 @@
   .Text-Area {
     color: #2F204C;
     background-color: #D8E3F9; /* Light Purple Background Color */
-    padding: 10%; /* Add padding for spacing */
+    padding: 30px; /* Add padding for spacing */
     text-align: center; /* Center align text */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  
-  
+
+
   .img {
     flex: 1; /* Take up available space on the right */
     max-width: 40%; /* Ensure the image does not exceed its container */
