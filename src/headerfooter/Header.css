@@ -14,15 +14,18 @@ header {
 	height: 80px;
 	padding: 0 2rem;
   background-color: #f2f2f2;
+
   height: fit-content;
   width: 98%;
 }
+
 
 .navitems {
 	margin: 0 1rem;
 	color: #2F204c;
 	text-decoration: none;
 }
+
 
 .navitems:hover {
 	color: var(--secondaryColor);
@@ -81,7 +84,6 @@ nav {
 	}
 
 }
-
 
 
 

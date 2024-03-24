@@ -20,9 +20,18 @@
 
 .Form {
   padding: 20px;
-  width: 60%; /* Adjust width for the form */
-  margin-left: 20%; /* Center the form horizontally */
+  padding-left: 700px;
+  width: 30%; /* Default width for the form */
+  margin-left: 20%; /* Default margin to center the form horizontally */
+
+  /* Adjustments for mobile view */
+  @media only screen and (max-width: 768px) {
+    padding: 10px; /* Reduced padding for smaller screens */
+    width: 80%; /* Adjusted width for smaller screens */
+    margin-left: 10%; /* Adjusted margin for smaller screens */
+  }
 }
+
 
 /* Style for the form elements */
 label {
@@ -69,3 +78,4 @@ textarea {
   background-color: #370757 !important;
   color: #E8E6F6 !important;
 }
+

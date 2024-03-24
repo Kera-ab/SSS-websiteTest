@@ -8,10 +8,12 @@ import { FaBars , FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 
 function Header() {
+
   const navRef = useRef();
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
+
   };
 
   const scrollToTop = () => {
@@ -32,11 +34,13 @@ function Header() {
                 Home
               </button>
             </Link>
+
           </div>
 
           <div className="navitems">
             <Link to="/aboutus">
               <button>About us</button>
+
             </Link>
           </div>
 
