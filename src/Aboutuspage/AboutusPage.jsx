@@ -5,8 +5,15 @@ import AbtusDesc from './AboutusDescription';
 function Aboutuspage() {
     return (
         <>
-          <div id='home' style={{ backgroundColor: 'lightblue' }}>
+          <div id='home' >
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          
           <AbtusDesc/>
+          
           </div>
         </>
       );

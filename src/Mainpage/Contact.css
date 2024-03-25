@@ -14,7 +14,7 @@
 }
 
 .Contact-Info {
-  padding: 5%;
+  padding: 3%;
   width: 100%;
 }
 
@@ -77,3 +77,11 @@ textarea {
   color: #E8E6F6 !important;
 }
 
+.cone{
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+.title{
+  padding-left: 3%;
+}

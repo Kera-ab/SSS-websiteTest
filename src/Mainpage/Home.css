@@ -29,12 +29,14 @@
 
   
   h1{
-    font-size:80px;
+    font-size:70px  !important;
   }
 
   h2{
     font-size:30px;
     font-weight: 500;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
   p{
@@ -45,7 +47,9 @@
 
     @media only screen and (max-width: 768px) 
     {
-      padding: 2px;
+      padding: 30px;
     }
     
   }
+
+  

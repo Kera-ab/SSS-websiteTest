@@ -8,11 +8,15 @@ function AbtusDesc() {
       <div className='Text-Area' style={{ backgroundColor: 'lightblue' }}>
         <h1 className='title' >About Us</h1>
         <h2></h2>
+        <br/>
+          <br/>
+          <br/>
         <p> Swift Sync Services is an esteemed IT firm led by experienced professionals well-versed in Dynamics 365, Power Platform, cybersecurity, risk management, and defensive security. Specializing in managed services and BAU ticket handling, we ensure top-notch security and operational efficiency for your business. Our commitment to excellence extends to our custom software development services, showcasing advanced skills in cloud solutions. At Swift Sync Services, we seamlessly combine our expertise in cybersecurity with cutting-edge technology, delivering robust solutions that enhance your business in today's intricate digital landscape. Your success is our primary focus, and we are dedicated to establishing new standards in the realm of professional IT solutions.</p>
-        <p>Us: </p>
-        <p>Rashish Tandulkar</p>
-        <p>Shiva Adhikari</p>
-        <p>Aditya Badal</p>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
       </div>
     </div>
   );

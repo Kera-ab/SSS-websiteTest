@@ -81,8 +81,8 @@ function Contact() {
       <h1 className='title'>Contact</h1>
       <div className='Contact-body'>
         <div className='Contact-Info'>
-          <p>Contact us at:    +61 0455 733 366</p>
-          <p>Email: swiftsynch@gmail.com</p>
+          <p className='cone'>Contact us at:    +61 0455 733 366</p>
+          <p className='cone'>Email: swiftsynch@gmail.com</p>
           <br />
           <br />
           <div className='Social-Media-Icons'>
