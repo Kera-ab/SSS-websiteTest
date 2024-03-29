@@ -6,6 +6,7 @@ function AbtusDesc() {
   return (
     <div className='Page'>
       <div className='Text-Area' style={{ backgroundColor: 'lightblue' }}>
+      <br/>
         <h1 className='title' >About Us</h1>
         <h2></h2>
         <br/>

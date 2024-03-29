@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <h2>SwiftSync Services</h2>
-      <p>Email: swiftsynch@gmail.com</p>
+      <p>Email: info.swiftsyncservice.com.au</p>
     </footer>
   );
 }

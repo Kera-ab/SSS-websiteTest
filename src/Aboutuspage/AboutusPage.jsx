@@ -6,14 +6,7 @@ function Aboutuspage() {
     return (
         <>
           <div id='home' >
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          
           <AbtusDesc/>
-          
           </div>
         </>
       );
